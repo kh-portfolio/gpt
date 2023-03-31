@@ -1,0 +1,92 @@
+/* Style for the header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  /* Style for the form */
+  form {
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #bbb;
+  }
+  
+  /* Style for the form input fields */
+  input[type="text"],
+  input[type="number"] {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the form button */
+  button[type="submit"] {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    
+  }
+  
+  /* Style for the list group */
+  .list-group {
+    margin: 20px auto;
+    max-width: 60%;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #bbb;
+  }
+  
+  /* Style for the list group items */
+  .list-group-item {
+    border: none;
+    background-color: transparent;
+  }
+  
+  /* Style for the list group item image */
+  .list-group-item img {
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  /* Style for the list group item text */
+  .list-group-item .opacity-75 {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  /* Style for the list group item answer */
+  .list-group-item .answer {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+  
+  h2{
+    text-align: center;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
